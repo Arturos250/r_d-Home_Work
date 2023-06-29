@@ -5,5 +5,6 @@ public class Main {
         System.out.println(student);
         Lecture lecture = new Lecture("Lukas", "Lucke", 90);
         System.out.println(lecture);
+
     }
 }
