@@ -1,32 +1,26 @@
 package oop_parth1;
 
 public class Lecture {
-        public Lecture(String Name, String Surname, int age){
-                this.Name = Name;
-                this.Surname = Surname;
-                this.age = age;
-        }
-        private String Name;
+        private String name;
+        private String surname;
+        private int age;
+        private String student;
 
         public String getName() {
-                return Name;
+                return name;
         }
 
         public void setName(String name) {
-                this.Name = Name;
+                this.name = name;
         }
 
-        private String Surname;
-
         public String getSurname() {
-                return Surname;
+                return surname;
         }
 
         public void setSurname(String surname) {
-                this.Surname = surname;
+                this.surname = surname;
         }
-
-        private int age;
 
         public int getAge() {
                 return age;
@@ -34,6 +28,14 @@ public class Lecture {
 
         public void setAge(int age) {
                 this.age = age;
+        }
+
+        public String getStudent() {
+                return student;
+        }
+
+        public void setStudent(String student) {
+                this.student = student;
         }
 }
 
