@@ -1,6 +1,6 @@
 package oop_parth2;
 
-public class BMW extends PassengerCar{
+public class BMW extends Car{
     @Override
     public void PassengerCar() {
         super.PassengerCar();
