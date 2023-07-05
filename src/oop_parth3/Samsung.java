@@ -16,9 +16,9 @@ public class Samsung extends TelephoneParent{
     }
 
     public static void main(String[] args) {
-        Samsung samsung1 = new Samsung("Samsung", "S22");
-        Samsung samsung2 = new Samsung("Samsung", "S22", 2022);
-        Samsung samsung3 = new Samsung("Samsung");
+        TelephoneParent samsung1 = new Samsung("Samsung", "S22");
+        TelephoneParent samsung2 = new Samsung("Samsung", "S22", 2022);
+        TelephoneParent samsung3 = new Samsung("Samsung");
         System.out.println("Just output to the console: " + samsung1);
         System.out.println("equals: " + samsung2.equals(samsung1));
         System.out.println("hashCode: " + samsung3.hashCode());

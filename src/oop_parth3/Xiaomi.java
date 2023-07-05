@@ -14,9 +14,9 @@ public class Xiaomi extends TelephoneParent{
     }
 
     public static void main(String[] args) {
-        Xiaomi xiaomi1 = new Xiaomi("Xiaomi");
-        Xiaomi xiaomi2 = new Xiaomi("Xiaomi", "9Pro");
-        Xiaomi xiaomi3 = new Xiaomi("Xiaomi", "9Pro", 2020);
+        TelephoneParent xiaomi1 = new Xiaomi("Xiaomi");
+        TelephoneParent xiaomi2 = new Xiaomi("Xiaomi", "9Pro");
+        TelephoneParent xiaomi3 = new Xiaomi("Xiaomi", "9Pro", 2020);
         System.out.println("hashCode: " + xiaomi1.equals(xiaomi2));
         System.out.println("equals: " + xiaomi2.hashCode());
         System.out.println("Just output to the console: " + xiaomi3);
