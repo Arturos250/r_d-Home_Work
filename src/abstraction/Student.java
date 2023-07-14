@@ -4,20 +4,14 @@ public class Student extends School{
 
     @Override
     public void description() {
-        descriptionOfTheStudent("Sasha", "Hodak", 18);
         descriptionOfTheStudent("Ivan", "Gelemaban", 21);
     }
     private void descriptionOfTheStudent(String name, String surname, int age){
         student Ivan = new student();
-        student Sasha = new student();
         Ivan.setAge(age);
         Ivan.setName(name);
-        Ivan.setSurname(surname);
-        Sasha.setAge(age);
-        Sasha.setName(name);
-        Sasha.setSurname(surname);
+        Ivan.setSurname(surname);;
         System.out.println(Ivan);
-        System.out.println(Sasha);
     }
 
     private class student{
