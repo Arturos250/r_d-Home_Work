@@ -1,13 +1,11 @@
 package lessonInterface;
 
 public abstract class Man implements Drive, Fly {
-    @Override
     public void drive() {
-        System.out.println("The skill of driving");
+        System.out.println("Driver drive");
     }
 
-    @Override
     public void fly() {
-        System.out.println("The skill of flying");
+        System.out.println("Pilot flies");
     }
 }

@@ -1,6 +1,12 @@
 package lessonInterface;
 
 public class Driver extends Man{
+
+    @Override
+    public void drive() {
+        super.drive();
+    }
+
     public Driver(String name, String surname, int year, float experience) {
         this.name = name;
         this.surname = surname;

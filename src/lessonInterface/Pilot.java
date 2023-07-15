@@ -1,6 +1,11 @@
 package lessonInterface;
 
 public class Pilot extends Man{
+    @Override
+    public void fly() {
+        super.fly();
+    }
+
     public Pilot(String name, String surname, int age, float experience) {
         this.name = name;
         this.surname = surname;
